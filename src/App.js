@@ -15,7 +15,7 @@ function App() {
   const [search,setSearch]=useState("")
   const [isLoading, startTransition] = useTransition()
 
-  const sortName = (key) =>{  ///  'name' ; 'adress' ; 'email'  // a[email]
+  const sortName = (key) =>{
 
     const newArr = state.sort((a, b)=>{
 
@@ -101,7 +101,7 @@ function App() {
 
       />
 
-      <header className={A.C_beetween} onClick={sort}>
+      <header className={A.headerBlock} onClick={sort}>
         <button className={A.elem} value="name">Name</button>
         <button className={A.elem + ' ' + A.elemAddress } value="address">Address</button>
         <button className={A.elem} value="phone">Phone</button>
@@ -114,7 +114,6 @@ function App() {
             ? 'Loading...'
             : state.map((elem)=><Item key={elem.guid} {...elem} />)
         }
-
       </section>
     </div>
   );

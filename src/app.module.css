@@ -1,7 +1,7 @@
 .App{
     border: 1px solid rgba(0,0,0,0.2);
 }
-.C_beetween{
+.headerBlock{
     display: flex;
     justify-content: space-between;
     margin: 10px;
