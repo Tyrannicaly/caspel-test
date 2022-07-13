@@ -1,0 +1,28 @@
+.App{
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.C_beetween{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+/*.line{*/
+/*    border-left:3px solid green;*/
+/*    padding-left:15px;*/
+/*}*/
+button.elem {
+    font-weight: 800;
+    cursor: pointer;
+}
+.elem{
+    width: 20%;
+    background:rgba(0,0,0,0.2) ;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.6);
+}
+.elemAddress{
+    width: 25%;
+}
+.elemEmail{
+    width: 35%;
+}
